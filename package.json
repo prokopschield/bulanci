@@ -1,0 +1,22 @@
+{
+	"name": "bulanci",
+	"description": "Kdo se vleče, neuteče.",
+	"version": "0.1.0-1",
+	"main": "lib/index.js",
+	"bin": {
+		"bulanci": "lib/cli.js"
+	},
+	"scripts": {
+		"start": "node lib/cli",
+		"test": "npx nslibmgr test"
+	},
+	"author": "SleepTeam s.r.o.",
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"@types/node": "^14"
+	},
+	"keywords": [],
+	"dependencies": {
+		"os": "^0.1.1"
+	}
+}
